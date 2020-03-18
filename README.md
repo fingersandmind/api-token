@@ -1,6 +1,6 @@
 # Project Title
 
-LIB BACKEND EXAMINATION.
+Basic API Authentication using Laravel Passport.
 
 ## Technologies and Packages used
 
