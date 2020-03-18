@@ -18,7 +18,7 @@ Below are the details of the system based on the given API Documentation.
 ```python
 routes/api.php
 
-Route::group(['namespace' => 'Api'], function(){
+Route::group(['namespace' => 'api'], function(){
 
     /**
      * ***** [AUTHENTICATION ROUTES] *****
