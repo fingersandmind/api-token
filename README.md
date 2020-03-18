@@ -37,6 +37,10 @@ Route::group(['namespace' => 'api'], function(){
 * ***** [For Registration] *****
     Method type: POST
     http://localhost:8000/api/register
+    
+    form-body
+    [name, email, password, password_confirmation]
+    
 
     {
         "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9....",
@@ -49,6 +53,9 @@ Route::group(['namespace' => 'api'], function(){
 * ***** [For Login] *****
     Method type: POST
     http://localhost:8000/api/login
+    
+    form-body
+    [email, password]
 
     {
         "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9....",
